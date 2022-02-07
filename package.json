@@ -1,0 +1,26 @@
+{
+	"name": "tailwindv1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss css/styles.css -o build/styles.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zzachjoness/TailwindV1.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zzachjoness/TailwindV1/issues"
+	},
+	"homepage": "https://github.com/zzachjoness/TailwindV1#readme",
+	"dependencies": {
+		"autoprefixer": "^10.4.2",
+		"postcss-cli": "^9.1.0",
+		"tailwindcss": "^3.0.18",
+		"watch": "^1.0.2"
+	}
+}
