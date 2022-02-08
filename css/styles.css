@@ -495,6 +495,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-40 {
   width: 10rem;
 }
