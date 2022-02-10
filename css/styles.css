@@ -503,8 +503,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 1.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-20 {
@@ -537,6 +545,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-0 {
   height: 0px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-40 {
@@ -593,6 +609,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .self-center {
   align-self: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-lg {
@@ -719,4 +739,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ring-stone-200 {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(231 229 228 / var(--tw-ring-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
 }
