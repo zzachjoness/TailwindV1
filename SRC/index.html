@@ -7,19 +7,26 @@
 		<link rel="stylesheet" href="../css/styles.css" />
 		<title>Document</title>
 	</head>
-	<body class="bg-stone-400">
+	<body id="body" class="bg-stone-400">
 		<nav>
-			<div class="flex bg-stone-700 h-20">
-				<div class="flex flex-col w-16 p-4 absolute self-center">
+			<div id="mobile-menu" class="flex bg-stone-700 h-20">
+				<div
+					id="hamburger-button"
+					class="flex flex-col w-16 p-4 absolute self-center"
+				>
 					<div class="m-1 w-full h-1 bg-stone-200 rounded-md"></div>
 					<div class="m-1 w-full h-1 bg-stone-200 rounded-md"></div>
+					<div class="m-1 w-full h-1 bg-stone-200 rounded-md"></div>
+				</div>
+				<div id="close-button" class="hidden w-16 p-4 absolute self-center">
+					<div class="rotate-45 w-full h-full bg-stone-200 rounded-md"></div>
 					<div class="m-1 w-full h-1 bg-stone-200 rounded-md"></div>
 				</div>
 				<div class="flex w-full justify-center self-center">
 					<h1 class="text-stone-200 text-4xl">APP</h1>
 				</div>
 			</div>
-			<div class="hidden w-full h-screen bg-black scroll">
+			<div id="drop-down-menu" class="hidden w-full h-screen bg-black scroll">
 				<div>
 					<div class="text-white">hi</div>
 				</div>
@@ -146,5 +153,6 @@
 				oh yes they are
 			</p>
 		</div>
+		<script src="app.js"></script>
 	</body>
 </html>
