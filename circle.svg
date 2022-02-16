@@ -31,15 +31,17 @@
        x2="94.215546"
        y2="211.67308"
        gradientUnits="userSpaceOnUse" />
+   
   </defs>
   <g
      id="layer1">
     <ellipse
        style="fill:url(#linearGradient5431);fill-opacity:1;stroke:#164450;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
        id="path5255"
-       cx="105.57692"
-       cy="133.09616"
-       rx="47.076923"
-       ry="46.55769" />
+       cx="100"
+       cy="100"
+       rx="50"
+       ry="50" />
+   <path class="path1" d="M100,200 C100, 100 250, 100 250, 200 S400, 300 400, 200" fill="none" stroke="red" />
   </g>
 </svg>
