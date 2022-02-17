@@ -30,7 +30,7 @@
        y2="211.67308"
        gradientUnits="userSpaceOnUse" />
   </defs>
-    <path id="path1" d="M100,200 C100, 100 250, 100 250, 200 S400, 300 400, 200" fill="none" stroke="red" />
+    <path id="path1" d="M100,200 C100, 100 250, 100 250, 200 S400, 300 400, 200" fill="none" stroke="red" stroke-width="7" />
     <ellipse
        style="fill:url(#linearGradient5431);fill-opacity:1;stroke:#164450;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
        id="path5255"
@@ -38,8 +38,8 @@
        cy="50"
        rx="50"
        ry="50" />
-      <path d="M 50 50 H 100" fill="red" stroke="blue" stroke-width="7">
-         <animateMotion dur="6s" repeatCount="indefinite" rotate="auto" >
+      <path d="M 0 -50 V 50" fill="red" stroke="blue" stroke-width="7">
+         <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
             <mpath xlink:href="#path1" />
          </animateMotion>
       </path>
