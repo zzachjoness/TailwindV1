@@ -1,0 +1,17 @@
+<svg 
+  width="50%" 
+  height="50%" 
+  viewBox="0 0 500 300" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+
+  <path id="path1" d="M100,250 C 100,50 400,50 400,250"
+    fill="none" stroke="blue" stroke-width="7.06" />
+  <path d="M -25 -14.5 L 25 -12.5 L 0 -87.5 z"
+    fill="yellow" stroke="red" stroke-width="7.06">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto" >
+      <mpath xlink:href="#path1" />
+    </animateMotion>
+  </path>
+
+</svg>
