@@ -1,7 +1,7 @@
 #line-div {
 	margin: 20px;
-	width: 100px;
-	height: 100px;
+	width: 400px;
+	height: 400px;
 	animation: rotation 3s linear infinite;
 	transform-origin: center;
 }
