@@ -14,3 +14,12 @@
 		transform: rotate(360deg);
 	}
 }
+
+#royalty-container {
+	display: flex;
+	justify-content: center;
+	background-color: coral;
+}
+#royalty-image {
+	width: 80%;
+}
